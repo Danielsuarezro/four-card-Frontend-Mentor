@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  Font size: 15px;
+
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.text_one,
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.text_two {
+  font-size: 13px;
+  text-align: center;
+}
+
+.header-main {
+  max-width: 1440px;
+  margin-top: 65px;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  max-width: 1100px;
+  margin-top: 115px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  margin-left: 245px;
+}
+
+.container p {
+  font-size: 10px;
+}
+
+/*Tarjetas configuracione estandar*/
+.taget_one,
+.taget_two,
+.taget_thre,
+.taget_four {
+
+  position: absolute;
+  padding: 30px;
+  width: 360px;
+  height: 200px;
+
+  box-sizing: border-box;
+  box-shadow: 0 8px 18px 3px#ccc;
+}
+
+/*Targer individual*/
+.taget_one {
+  margin: 200px 0 0 55px;
+  border-top: solid hsl(180, 62%, 55%);
+}
+
+.taget_two {
+  margin: 80px 0 0 450px;
+  border-top: solid hsl(0, 78%, 62%);
+}
+
+.taget_thre {
+  margin: 300px 0 0 450px;
+  border-top: solid hsl(34, 97%, 64%);
+}
+
+.taget_four {
+  margin: 190px 0 0 845px;
+  border-top: solid hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  body {
+    background-color: white;
+  }
+
+  .header-main {
+    padding: 50px;
+    align-content: center;
+  }
+
+  .header-main p {
+    font-size: 30px;
+  }
+
+  .container {
+    margin-top: 230px;
+    align-content: center;
+  }
+
+  .container img {
+    margin-left: 305px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    width: 140px;
+    height: 140px;
+  }
+
+  .container p {
+    font-size: 35px;
+    text-align: justify;
+  }
+
+  /*Tarjetas configuracione estandar*/
+  .taget_one,
+  .taget_two,
+  .taget_thre,
+  .taget_four {
+
+    position: absolute;
+    padding: 30px;
+    width: 860px;
+    height: 480px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 18px 3px#ccc;
+  }
+
+  /*Targer individual*/
+  .taget_one {
+    margin: 80px 0 0 90px;
+    border-top: solid hsl(180, 62%, 55%);
+  }
+
+  .taget_two {
+    margin: 640px 0 0 90px;
+    border-top: solid hsl(0, 78%, 62%);
+  }
+
+  .taget_thre {
+    margin: 1190px 0 0 90px;
+    border-top: solid hsl(34, 97%, 64%);
+  }
+
+  .taget_four {
+    margin: 1750px 0 20px 90px;
+    border-top: solid hsl(212, 86%, 64%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: white;
+  }
+
+  .header-main {
+    padding: 20px;
+    align-content: center;
+  }
+
+  .header-main p {
+    font-size: 20px;
+  }
+
+  .container {
+    margin-top: 95px;
+    align-content: center;
+  }
+
+  .container img {
+    margin-left: 255px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 95px;
+    height: 95px;
+  }
+
+  .container p {
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  /*Tarjetas configuracione estandar*/
+  .taget_one,
+  .taget_two,
+  .taget_thre,
+  .taget_four {
+
+    position: absolute;
+    padding: 30px;
+    width: 560px;
+    height: 280px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 18px 3px#ccc;
+  }
+
+  /*Targer individual*/
+  .taget_one {
+    margin: 80px 0 0 100px;
+    border-top: solid hsl(180, 62%, 55%);
+  }
+
+  .taget_two {
+    margin: 400px 0 0 100px;
+    border-top: solid hsl(0, 78%, 62%);
+  }
+
+  .taget_thre {
+    margin: 720px 0 0 100px;
+    border-top: solid hsl(34, 97%, 64%);
+  }
+
+  .taget_four {
+    margin: 1050px 0 20px 100px;
+    border-top: solid hsl(212, 86%, 64%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+
+  .header-main {
+    padding: 20px;
+    align-content: center;
+  }
+
+  .container {
+    margin-top: 25px;
+    align-content: center;
+  }
+
+  .container img {
+    margin-left: 105px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .container p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  /*Tarjetas configuracione estandar*/
+  .taget_one,
+  .taget_two,
+  .taget_thre,
+  .taget_four {
+
+    position: absolute;
+    padding: 30px;
+    width: 320px;
+    height: 180px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 18px 3px#ccc;
+  }
+
+  /*Targer individual*/
+  .taget_one {
+    margin: 80px 0 0 20px;
+    border-top: solid hsl(180, 62%, 55%);
+  }
+
+  .taget_two {
+    margin: 290px 0 0 20px;
+    border-top: solid hsl(0, 78%, 62%);
+  }
+
+  .taget_thre {
+    margin: 500px 0 0 20px;
+    border-top: solid hsl(34, 97%, 64%);
+  }
+
+  .taget_four {
+    margin: 710px 0 0 20px;
+    border-top: solid hsl(212, 86%, 64%);
+  }
+}
